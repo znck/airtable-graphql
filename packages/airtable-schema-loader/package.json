@@ -1,0 +1,41 @@
+{
+  "name": "@znck/airtable-schema-loader",
+  "version": "0.1.15",
+  "description": "Generate graphql schema and resolver form Airtable.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "bin": "bin/airtable-schema-loader.js",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "airtable",
+    "graphql"
+  ],
+  "author": "Rahul Kadyan <rahulkdn@gmail.com> (https://znck.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "camelcase": "^5.3.1",
+    "commander": "^3.0.1",
+    "graphql": "^14.5.4",
+    "inquirer": "^7.0.0",
+    "pluralize": "^8.0.0",
+    "prettier": "^1.18.2",
+    "puppeteer": "^1.19.0",
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/inquirer": "^6.5.0",
+    "@types/pluralize": "^0.0.29",
+    "@types/prettier": "^1.18.2",
+    "@types/puppeteer": "^1.19.1"
+  }
+}

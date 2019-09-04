@@ -1,0 +1,18 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "total": 1,
+    "workspacePrefix": "/Users/znck/Workspace/znck/airtable-graphql"
+  },
+  "1 error pnpm": {
+    "message": {
+      "code": "ERR_PNPM_RECURSIVE_RUN_NO_SCRIPT"
+    },
+    "err": {
+      "name": "Error",
+      "message": "None of the packages has a \"publish\" script",
+      "code": "ERR_PNPM_RECURSIVE_RUN_NO_SCRIPT",
+      "stack": "Error: None of the packages has a \"publish\" script\n    at Object.exports.default (/usr/local/lib/node_modules/pnpm/lib/cmd/recursive/run.js:65:15)\n    at async recursive (/usr/local/lib/node_modules/pnpm/lib/cmd/recursive/index.js:125:25)\n    at async Object.exports.default [as recursive] (/usr/local/lib/node_modules/pnpm/lib/cmd/recursive/index.js:71:38)"
+    }
+  }
+}
